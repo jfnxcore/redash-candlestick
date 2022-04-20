@@ -9,7 +9,7 @@ This extension is a proof of concept to add Plotly's Candlestick graph to Redash
 1. **Candlestick Graph**: Candlestick Graph support timeseries with OHLC and volume columns. The Editor support basic display customarization as increasing/decreasing candlestick colors, volume display and color, range selector and range slider
 1. **Alphavantage Query Runner**: Query Runner with basic support of the [Alphavantage API](https://www.alphavantage.co/)
 
-## Know Issues
+## Known Issues
 
-1. The Alphavantage Datasource and Query runner does not have their logo and I did found anyway to provide it without modifying the Redash's source code
-1. To add the Candlestick graph to the list of available graphs, the [index.js](blob/main/src/redash_candlestick/candlestick/bundle/index.jsx) refer directly to the map of registred visualizations (**registeredVisualizations** in [@redash/viz/lib/visualizations/registeredVisualizations](https://github.com/getredash/redash/blob/master/viz-lib/src/visualizations/registeredVisualizations.ts)) without validating the graph's configuration. Since the function to do the visualizations registration (**validateVisualizationConfig**) has not been exported, I don't think we are supposed to do think kind of manipulation. _But! Hey! It working!_
+1. The Alphavantage Datasource and Query runner don't have their logo and I don't found any way to provide it without modifying the Redash's source code
+1. To add the Candlestick graph to the list of available visualizations, the [index.js](/src/redash_candlestick/candlestick/bundle/index.jsx) file refers directly to the map of registered visualizations (**registeredVisualizations** in [@redash/viz/lib/visualizations/registeredVisualizations](https://github.com/getredash/redash/blob/master/viz-lib/src/visualizations/registeredVisualizations.ts)) without validating the graph's configuration. Since the function to do the visualizations registration (**validateVisualizationConfig**) has not been exported, I don't think we are supposed to do this kind of manipulation. _But! Hey! It working!_
