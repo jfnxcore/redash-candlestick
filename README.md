@@ -6,8 +6,12 @@ This extension is a proof of concept to add Plotly's Candlestick graph to Redash
 
 ## Extension features
 
-1. **Candlestick Graph**: Candlestick Graph support timeseries with OHLC and volume columns. The Editor support basic display customarization as increasing/decreasing candlestick colors, volume display and color, range selector and range slider
-1. **Alphavantage Query Runner**: Query Runner with basic support of the [Alphavantage API](https://www.alphavantage.co/)
+- **Candlestick Graph**: Candlestick Graph support timeseries with OHLC and volume columns. The Editor support basic display customarization as increasing/decreasing candlestick colors, volume display and color, range selector and range slider
+![candlestick](https://user-images.githubusercontent.com/23456948/164351972-c45ec196-2ed2-4875-955f-92f57e38a9ed.png)
+
+- **Alphavantage Query Runner**: Query Runner with basic support of the [Alphavantage API](https://www.alphavantage.co/)
+![alphavantage-query](https://user-images.githubusercontent.com/23456948/164351994-f2bc8513-dd1d-4ab0-95db-dff262bd9ae5.png)
+
 
 ## Known Issues
 
