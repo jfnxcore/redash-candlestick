@@ -18,7 +18,7 @@ setup(
     long_description_content_type="text/markdown",
     name="redash-candlestick",
     use_scm_version={"version_scheme": "post-release", "local_scheme": "dirty-tag"},
-    setup_requires=["setuptools_scm"],
+    #setup_requires=["setuptools_scm"],
     description="Candlestick Extensions to Redash",
     project_urls={"homepage": "https://github.com/jfnxcore/redash-candlestick"},
     author="jfnxcore",
