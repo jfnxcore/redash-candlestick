@@ -25,8 +25,8 @@ export default function FormatSettings({ options, data, onOptionsChange }) {
         <Input
           label={
             <React.Fragment>
-              Number Values Format
-              <ContextHelp.NumberFormatSpecs />
+              Date Values Format
+              <ContextHelp.DateTimeFormatSpecs />
             </React.Fragment>
           }
           data-test="Candlestick.FormatSettings.DateFormat"

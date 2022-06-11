@@ -1,5 +1,3 @@
-import { extend } from "lodash"
-
 
 export default function prepareData(data, options) {
     const DEFAULT = {

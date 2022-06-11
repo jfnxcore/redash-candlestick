@@ -1,4 +1,4 @@
-import { map, extend } from "lodash";
+import { map } from "lodash";
 import React from "react";
 import { Section, Select, ColorPicker, Switch } from "@redash/viz/lib/components/visualizations/editor";
 import { default as ColorPalette } from "./ColorPalette";
